@@ -1,0 +1,19 @@
+.contenedor-categoria{
+background-color: blue;
+}
+.portada{
+    width: 100%;
+    background-image: url("https://res.cloudinary.com/dmhmok9ot/image/upload/v1671080544/portada_jeccq3.jpg");
+    height: 535px;
+    margin-top: 5px;
+}
+.contenedor-opcion-sexo{
+    width: 100%;
+    height: 535px;
+    /* background-color: rgba(235, 145, 145, 0.726); */
+}
+
+.icons-mujer{
+    width: 60px;
+    height: 60px;
+}
