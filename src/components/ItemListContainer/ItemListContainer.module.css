@@ -1,0 +1,9 @@
+.contenedorCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cardProductos{
+    padding: 10px;
+}

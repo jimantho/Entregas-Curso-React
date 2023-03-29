@@ -1,0 +1,13 @@
+.navbar-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-carty{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
