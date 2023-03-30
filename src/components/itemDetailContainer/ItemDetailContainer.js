@@ -12,7 +12,7 @@ const ItemDetailContainer = ({ elemento }) => {
 
     const onAdd = (quantity) => {
         addToCart({...elemento, quantity: quantity})
-        console.log("la cantidad es: ", quantity)
+        console.log("la cantidad esssss: ", quantity)
     }
     const quantity = getQuantityById(elemento.name)
     console.log(quantity)
