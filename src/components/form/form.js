@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {addDoc, collection} from "firebase/firestore"
+import {addDoc, collection, doc, updateDoc} from "firebase/firestore"
 import  {db} from "../../firebaseConfig"
 
 const Form = ({cart, getTotalPrice, setOrderId, clearCart}) => {
@@ -21,6 +21,14 @@ const Form = ({cart, getTotalPrice, setOrderId, clearCart}) => {
         const orderCollection = collection(db, "orders");
         addDoc(orderCollection, order)
         .then(res => {setOrderId(res.id)})
+
+        /* const orderDoc = doc(db,"products", 1)
+        updateDoc(orderDoc, {stock}) */
+
+        cart.map(product => { updateDoc(doc(db,"products", product.id ), {stock: product.stock - product.quantity})})
+
+    
+
         clearCart()
     }
     /*  const changeName = (event) => {

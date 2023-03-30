@@ -37,7 +37,7 @@ const ItemDetailContainer = ({ elemento }) => {
                         </Typography>
                     </CardContent>
                 </Link>
-                <ItemCount onAdd ={onAdd} inicial={quantity}></ItemCount>
+                <ItemCount onAdd ={onAdd} stock = {elemento.stock} inicial={quantity}></ItemCount>
             
             </Card>
 
