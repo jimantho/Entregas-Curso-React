@@ -43,14 +43,14 @@ const Form = ({cart, getTotalPrice, setOrderId, clearCart}) => {
         } */
     // console.log(data.name, data.lastName)
 
-    const handleKey = (event) => {
+/*     const handleKey = (event) => {
         // console.log(event.key)
         if (event.key !== "a" & event.key !== " ") { // no permite escribir letras o espacios de acuerdo a lo que restringes , ESTO SE PUEDE HACER CON LIBRERIAS COMO FORMIK Y YUP 
             console.log(event.key)
         } else {
             event.preventDefault() //no captura en el onchange y no se escribe en el input
         }
-    }
+    } */
 
     return (
         <div>
