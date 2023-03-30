@@ -1,7 +1,6 @@
 import React from 'react'
 import { Item } from '../item/Item'
 import { useEffect, useState } from "react"
-import { productos } from "../../Data/productosMock.js";
 import styles from "../ItemListContainer/ItemListContainer.module.css"
 import HashLoader from "react-spinners/HashLoader";
 

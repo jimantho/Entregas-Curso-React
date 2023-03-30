@@ -1,6 +1,5 @@
 
 import React, { useEffect, useState } from 'react'
-import { icons } from '../../Data/icons';
 import { MostrarCategoria } from '../mostrarCategoria/MostrarCategoria';
 import { Link, useParams } from "react-router-dom";
 import { ItemListContainer } from '../ItemListContainer/ItemListContainer';

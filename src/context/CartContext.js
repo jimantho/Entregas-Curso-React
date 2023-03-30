@@ -53,7 +53,7 @@ const CartContextProvider = ({ children }) => {
     return acc */
   const deleteProductoById = (id) => {
     console.log(id)
-    const newArray = cart.filter(product => product.id != id)
+    const newArray = cart.filter(product => product.id !== id)
     setCart(newArray)
   }
 
